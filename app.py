@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load('california_house_price_model_rf.pkl')
+model = joblib.load('california_house_price_model_rf_small.pkl')
 st.title("California House Price Predictor")
 
 # Sliders for user input
