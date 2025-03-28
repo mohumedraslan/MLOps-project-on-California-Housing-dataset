@@ -8,8 +8,6 @@ Original file is located at
 """
 
 
-from google.colab import files
-files = files.upload()
 
 import streamlit as st
 import joblib
